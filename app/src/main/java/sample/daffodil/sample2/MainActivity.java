@@ -1,8 +1,10 @@
 package sample.daffodil.sample2;
-
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -40,6 +42,11 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        Fragment f=new HomeFragment();
+        FragmentManager fm=getSupportFragmentManager();
+        FragmentTransaction ft=fm.beginTransaction();
+        ft.replace(R.id.id_main_fragment_frame,f);
+        ft.commit();
     }
 
     @Override
@@ -82,9 +89,9 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_categories) {
-
         } else if (id == R.id.nav_products) {
+
+        } else if (id == R.id.nav_categories) {
 
         } else if (id == R.id.nav_aboutUs) {
 

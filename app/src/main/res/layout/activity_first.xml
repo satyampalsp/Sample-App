@@ -16,7 +16,7 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:clickable="false"
-            android:src="@drawable/logo" />
+            android:src="@mipmap/logo" />
     </LinearLayout>
 
     <LinearLayout
@@ -28,7 +28,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="1.5">
 
 
             <EditText
@@ -37,7 +37,6 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:layout_marginTop="5dp"
                 android:background="@drawable/et_background"
                 android:hint="Email"
                 android:paddingLeft="35dp"
@@ -48,14 +47,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="left|center"
                 android:layout_marginLeft="55dp"
-                android:layout_marginTop="3dp"
                 android:src="@drawable/ic_account_circle_black_24dp" />
         </FrameLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.5">
             <EditText
                 android:id="@+id/id_password"
                 android:layout_width="match_parent"
