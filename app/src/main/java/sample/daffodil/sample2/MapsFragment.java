@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.SearchView;
 
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
@@ -64,7 +65,7 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
     String provider;
     int PLACE_AUTOCOMPLETE_REQUEST_CODE = 1;
     CardView mapSearch;
-    SearchView searchView;
+    ImageView searchView;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -73,11 +74,11 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
         mMapView = (MapView) view.findViewById(R.id.id_google_maps);
         mMapView.onCreate(savedInstanceState);
         mMapView.onResume();
+        searchView=(ImageView)view.findViewById(R.id.id_Search_view_maps);
         searchView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 search();
-                searchView.setVisibility(View.INVISIBLE);
             }
         });
         try {
@@ -123,16 +124,6 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
             }
         });
 
-        try {
-            Intent intent =
-                    new PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_OVERLAY)
-                            .build(getActivity());
-            startActivityForResult(intent, PLACE_AUTOCOMPLETE_REQUEST_CODE);
-        } catch (GooglePlayServicesRepairableException e) {
-            // TODO: Handle the error.
-        } catch (GooglePlayServicesNotAvailableException e) {
-            // TODO: Handle the error.
-        }
         return view;
     }
     @Override
@@ -201,6 +192,5 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
         } catch (GooglePlayServicesNotAvailableException e) {
             // TODO: Handle the error.
         }
-        searchView.setVisibility(View.VISIBLE);
     }
 }

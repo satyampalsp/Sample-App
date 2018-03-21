@@ -32,12 +32,12 @@
         "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\15f5c1f0d9b115947da339ac00161cd531e7e31d\\output\\res\\drawable-xxhdpi-v4\\gallery.png"
     },
     {
-        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\places_ic_search.png",
-        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\599c0ea5941f2a102017542fe825431bcd90bce9\\output\\res\\drawable-xxhdpi-v4\\places_ic_search.png"
-    },
-    {
         "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png",
         "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\\output\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\places_ic_search.png",
+        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\599c0ea5941f2a102017542fe825431bcd90bce9\\output\\res\\drawable-xxhdpi-v4\\places_ic_search.png"
     },
     {
         "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",

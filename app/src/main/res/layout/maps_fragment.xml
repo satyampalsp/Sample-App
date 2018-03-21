@@ -7,11 +7,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <SearchView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:queryHint="Search a place"
-            android:id="@+id/id_Search_view_maps"></SearchView>
+
             <fragment
                 android:id="@+id/place_autocomplete_fragment"
                 android:layout_width="match_parent"
@@ -23,5 +19,12 @@
             android:id="@+id/id_google_maps"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|left"
+            android:queryHint="Search a place"
+            android:src="@drawable/search_icon"
+            android:id="@+id/id_Search_view_maps"></ImageView>
     </FrameLayout>
 </LinearLayout>

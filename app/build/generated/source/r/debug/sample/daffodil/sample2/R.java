@@ -3545,13 +3545,13 @@ containing a value of this type.
         public static final int abc_vector_test=0x7f020052;
         public static final int about=0x7f020053;
         public static final int avd_hide_password=0x7f020054;
-        public static final int avd_hide_password_1=0x7f02009d;
-        public static final int avd_hide_password_2=0x7f02009e;
-        public static final int avd_hide_password_3=0x7f02009f;
+        public static final int avd_hide_password_1=0x7f02009e;
+        public static final int avd_hide_password_2=0x7f02009f;
+        public static final int avd_hide_password_3=0x7f0200a0;
         public static final int avd_show_password=0x7f020055;
-        public static final int avd_show_password_1=0x7f0200a0;
-        public static final int avd_show_password_2=0x7f0200a1;
-        public static final int avd_show_password_3=0x7f0200a2;
+        public static final int avd_show_password_1=0x7f0200a1;
+        public static final int avd_show_password_2=0x7f0200a2;
+        public static final int avd_show_password_3=0x7f0200a3;
         public static final int camera=0x7f020056;
         public static final int categories=0x7f020057;
         public static final int circle_background=0x7f020058;
@@ -3611,8 +3611,8 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f02008e;
         public static final int notification_bg_normal_pressed=0x7f02008f;
         public static final int notification_icon_background=0x7f020090;
-        public static final int notification_template_icon_bg=0x7f02009b;
-        public static final int notification_template_icon_low_bg=0x7f02009c;
+        public static final int notification_template_icon_bg=0x7f02009c;
+        public static final int notification_template_icon_low_bg=0x7f02009d;
         public static final int notification_tile_bg=0x7f020091;
         public static final int notify_panel_notification_icon_bg=0x7f020092;
         public static final int phone_ic=0x7f020093;
@@ -3621,8 +3621,9 @@ containing a value of this type.
         public static final int powered_by_google_dark=0x7f020096;
         public static final int powered_by_google_light=0x7f020097;
         public static final int products=0x7f020098;
-        public static final int side_nav_bar=0x7f020099;
-        public static final int twitter=0x7f02009a;
+        public static final int search_icon=0x7f020099;
+        public static final int side_nav_bar=0x7f02009a;
+        public static final int twitter=0x7f02009b;
     }
     public static final class id {
         public static final int action0=0x7f0e00b9;
@@ -3708,7 +3709,7 @@ containing a value of this type.
         public static final int icon=0x7f0e005c;
         public static final int icon_group=0x7f0e00c7;
         public static final int icon_only=0x7f0e004d;
-        public static final int id_Search_view_maps=0x7f0e00b1;
+        public static final int id_Search_view_maps=0x7f0e00b3;
         public static final int id_book_id=0x7f0e00db;
         public static final int id_city=0x7f0e00e0;
         public static final int id_conf_id=0x7f0e00e5;
@@ -3718,7 +3719,7 @@ containing a value of this type.
         public static final int id_end_date=0x7f0e00e4;
         public static final int id_facebook_connect=0x7f0e008c;
         public static final int id_forgot_password=0x7f0e008b;
-        public static final int id_google_maps=0x7f0e00b3;
+        public static final int id_google_maps=0x7f0e00b2;
         public static final int id_google_plus_connect=0x7f0e008e;
         public static final int id_login_button=0x7f0e0089;
         public static final int id_main_fragment_frame=0x7f0e009a;
@@ -3783,7 +3784,7 @@ containing a value of this type.
         public static final int parentPanel=0x7f0e0060;
         public static final int pin=0x7f0e003b;
         public static final int place_autocomplete_clear_button=0x7f0e00cf;
-        public static final int place_autocomplete_fragment=0x7f0e00b2;
+        public static final int place_autocomplete_fragment=0x7f0e00b1;
         public static final int place_autocomplete_powered_by_google=0x7f0e00d1;
         public static final int place_autocomplete_prediction_primary_text=0x7f0e00d3;
         public static final int place_autocomplete_prediction_secondary_text=0x7f0e00d4;
