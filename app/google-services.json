@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "511448911135",
+    "firebase_url": "https://sample-app-a4867.firebaseio.com",
+    "project_id": "sample-app-a4867",
+    "storage_bucket": "sample-app-a4867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511448911135:android:18c74e8d5de1054c",
+        "android_client_info": {
+          "package_name": "sample.daffodil.sample2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511448911135-brrn7ceeta6inlakjr16ntar49jdfh2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc1VH5gA0oelFG5eeR5JjK1Y92Y9e4Zzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

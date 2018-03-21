@@ -1,4 +1,7 @@
 package sample.daffodil.sample2;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,17 +17,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
+import static java.security.AccessController.getContext;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    String url;
+    ImageView profileImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        ButterKnife.bind(this);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,13 +55,35 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        View profileView=navigationView.getHeaderView(0);
+        profileImage=(ImageView)profileView.findViewById(R.id.id_profile_image);
+
         Fragment f=new HomeFragment();
         FragmentManager fm=getSupportFragmentManager();
         FragmentTransaction ft=fm.beginTransaction();
         ft.replace(R.id.id_main_fragment_frame,f);
         ft.commit();
-    }
+        SharedPreferences sp = this.getSharedPreferences("Mypref", 0);
+        url=sp.getString("picUrl",null);
+        if(url!=null){
+            Picasso.with(this).load(url).fit().into(profileImage);
+        }
 
+        profileImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Fragment f=new ProfileFragment();
+                FragmentManager fm=getSupportFragmentManager();
+                FragmentTransaction ft=fm.beginTransaction();
+                ft.replace(R.id.id_main_fragment_frame,f);
+                ft.addToBackStack(null);
+                ft.commit();
+                DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+            }
+        });
+    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -89,6 +124,12 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             // Handle the camera action
+            Fragment f=new HomeFragment();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.id_main_fragment_frame,f);
+            ft.addToBackStack(null);
+            ft.commit();
         } else if (id == R.id.nav_products) {
 
         } else if (id == R.id.nav_categories) {
@@ -96,9 +137,32 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_aboutUs) {
 
         }
+        else if (id == R.id.nav_maps) {
+            Fragment f=new MapsFragment();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.id_main_fragment_frame,f);
+            ft.addToBackStack(null);
+            ft.commit();
+        }
+        else if(id==R.id.nav_logout){
+            SharedPreferences sp=getApplicationContext().getSharedPreferences("Mypref",0);
+            SharedPreferences.Editor editor=sp.edit();
+            editor.putString("email","");
+            editor.putString("pass","");
+            editor.putBoolean("flag",false);
+            editor.apply();
+            startActivity(new Intent(MainActivity.this,FirstActivity.class));
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+//    public void SetImage(String Url){
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+//        View profileView=navigationView.getHeaderView(0);
+//        profileImage=(ImageView)profileView.findViewById(R.id.id_profile_image);
+//        Picasso.with(this).load(Url).fit().into(profileImage);
+//    }
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\logo.png",
+        "source": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\edit_ic.png",
+        "source": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\src\\main\\res\\mipmap-mdpi\\edit_ic.png"
+    },
+    {
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_logo.png",
+        "source": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    }
+]

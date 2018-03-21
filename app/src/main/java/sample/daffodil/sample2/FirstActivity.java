@@ -3,12 +3,14 @@ package sample.daffodil.sample2;
 import android.Manifest;
 import android.arch.persistence.room.Room;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,10 +19,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.nio.charset.StandardCharsets;
+import java.security.Permission;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -41,11 +45,6 @@ public class FirstActivity extends AppCompatActivity {
 
         //Sample Test for asking permission
 
-        final int PERMISSIONS_REQUEST_READ_CONTACTS = 100;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
-            requestPermissions(new String[]{Manifest.permission.READ_CONTACTS}, PERMISSIONS_REQUEST_READ_CONTACTS);
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, 225);
-        }
 
         //Action on clicking Login button
 
@@ -85,9 +84,17 @@ public class FirstActivity extends AppCompatActivity {
                         String pass = Base64.encodeToString(base64, Base64.DEFAULT);
                         //Successfull Login
                         if (u.get(0).email.equals(enteredUsername) && u.get(0).password.equals(pass)) {
-                            Toast.makeText(FirstActivity.this, "Login Successfull", Toast.LENGTH_SHORT).show();
+                            SharedPreferences sp=getApplicationContext().getSharedPreferences("Mypref",0);
+                            SharedPreferences.Editor editor=sp.edit();
+                            editor.putString("email",enteredUsername.trim());
+                            editor.putString("pass",pass);
+                            editor.putBoolean("flag",true);
+
+                            editor.apply();
+                            Toast.makeText(FirstActivity.this,sp.getString("pass",null),Toast.LENGTH_LONG).show();
                             Intent i = new Intent(FirstActivity.this, MainActivity.class);
                             startActivity(i);
+                            finish();
                         } else {
                             Toast.makeText(FirstActivity.this, "Invalid Password!!", Toast.LENGTH_SHORT).show();
                         }
@@ -104,7 +111,5 @@ public class FirstActivity extends AppCompatActivity {
             }
         });
     }
-
-
 
 }
