@@ -8,16 +8,16 @@
         "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
         "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\\output\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
         "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\DAFFODIL-29\\AndroidStudioProjects\\Sample2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",

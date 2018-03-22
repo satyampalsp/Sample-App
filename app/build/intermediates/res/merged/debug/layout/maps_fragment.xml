@@ -20,11 +20,23 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
             android:layout_gravity="top|left"
             android:queryHint="Search a place"
             android:src="@drawable/search_icon"
             android:id="@+id/id_Search_view_maps"></ImageView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="10dp"
+            android:background="@drawable/iv_background"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:text="Satellite View"
+            android:id="@+id/id_maps_view_change"
+            />
     </FrameLayout>
 </LinearLayout>

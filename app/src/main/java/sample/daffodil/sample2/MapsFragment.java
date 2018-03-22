@@ -32,6 +32,7 @@ import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.Locale;
@@ -64,7 +65,8 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
     GoogleMap googleMap;
     String provider;
     int PLACE_AUTOCOMPLETE_REQUEST_CODE = 1;
-    CardView mapSearch;
+    Boolean MAP_MODE=true;
+    Button changeMapView;
     ImageView searchView;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -74,6 +76,22 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
         mMapView = (MapView) view.findViewById(R.id.id_google_maps);
         mMapView.onCreate(savedInstanceState);
         mMapView.onResume();
+        changeMapView=(Button)view.findViewById(R.id.id_maps_view_change);
+        changeMapView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(MAP_MODE==true){
+                    googleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+                    MAP_MODE=false;
+                    changeMapView.setText("Normal View");
+                }
+                else{
+                    googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+                    MAP_MODE=true;
+                    changeMapView.setText("Satellite View");
+                }
+            }
+        });
         searchView=(ImageView)view.findViewById(R.id.id_Search_view_maps);
         searchView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -167,7 +185,7 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
                 Place place = PlaceAutocomplete.getPlace(getActivity(), data);
                 Log.i("Searched", "Place: " + place.getLatLng());
                 googleMap.addMarker(new MarkerOptions().position(place.getLatLng()).title(place.getName().toString()).snippet(place.getAddress().toString()));
-
+                googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
                 // For zooming automatically to the location of the marker
                 CameraPosition cameraPosition = new CameraPosition.Builder().target(place.getLatLng()).zoom(15).build();
                 googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
@@ -184,7 +202,7 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
     void search(){
         try {
             Intent intent =
-                    new PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_FULLSCREEN)
+                    new PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_OVERLAY)
                             .build(getActivity());
             startActivityForResult(intent, PLACE_AUTOCOMPLETE_REQUEST_CODE);
         } catch (GooglePlayServicesRepairableException e) {
