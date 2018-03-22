@@ -34,7 +34,7 @@
             android:layout_margin="10dp"
             android:background="@drawable/iv_background"
             android:textColor="@color/colorPrimary"
-            android:textSize="20dp"
+            android:textSize="10dp"
             android:text="Satellite View"
             android:id="@+id/id_maps_view_change"
             />

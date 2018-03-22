@@ -107,8 +107,6 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\DAFFODIL-
 MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\afd79794ffe647a12e5849dcee6d086416078a91\output\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\15a29503a26f9bceae73ba6f7ff44c7ea3b33752\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0f6888799e753807b194658e5d3a8e3f87a6d40c\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\018c3cd93aea3aef02aed5015a93c972933fd3c2\output\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\99aad9b06876608bf629702c2b6482049bcfa628\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\599c0ea5941f2a102017542fe825431bcd90bce9\output\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\edaa63946bd5dfb7d37f8c47b6ee8390471bbdf5\output\AndroidManifest.xml:5:5-20
 MERGED from [com.cloudinary:cloudinary-android:1.20.0] C:\Users\DAFFODIL-29\.android\build-cache\18c425cc27782d0135628e095f71ef870f7df21e\output\AndroidManifest.xml:13:5-67
@@ -290,8 +288,6 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\DAFFODIL-
 MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\afd79794ffe647a12e5849dcee6d086416078a91\output\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\15a29503a26f9bceae73ba6f7ff44c7ea3b33752\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0f6888799e753807b194658e5d3a8e3f87a6d40c\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\018c3cd93aea3aef02aed5015a93c972933fd3c2\output\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\99aad9b06876608bf629702c2b6482049bcfa628\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\599c0ea5941f2a102017542fe825431bcd90bce9\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\edaa63946bd5dfb7d37f8c47b6ee8390471bbdf5\output\AndroidManifest.xml:4:5-43
 MERGED from [com.cloudinary:cloudinary-android:1.20.0] C:\Users\DAFFODIL-29\.android\build-cache\18c425cc27782d0135628e095f71ef870f7df21e\output\AndroidManifest.xml:7:5-9:41

@@ -33,9 +33,12 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.io.IOException;
 import java.util.Locale;
+import java.util.concurrent.TimeUnit;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -54,6 +57,7 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
     View view;
     MapView mMapView;
     boolean isGPS = false;
+    private static final String API_KEY = "AIzaSyDdK10bxb18t3a4zVjV62GtQbY9TCk1PPs";
     final String TAG = "GPS";
     private final static int ALL_PERMISSIONS_RESULT = 101;
     private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10;
@@ -61,6 +65,7 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
     boolean isNetwork = false;
     boolean canGetLocation = true;
     Location loc;
+    Marker m1=null,m2=null;
     LocationManager locationManager;
     GoogleMap googleMap;
     String provider;
@@ -125,7 +130,7 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
 
                 // For dropping a marker at a point on the Map
                 LatLng sydney = new LatLng(-34, 151);
-                googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker Title").snippet("Marker Description"));
+                m1=googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker Title").snippet("Marker Description"));
 
                 // For zooming automatically to the location of the marker
                 CameraPosition cameraPosition = new CameraPosition.Builder().target(sydney).zoom(15).build();
@@ -135,7 +140,8 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
                     public boolean onMyLocationButtonClick() {
                         Location l=googleMap.getMyLocation();
                         LatLng loc=new LatLng(l.getLatitude(),l.getLongitude());
-                        googleMap.addMarker(new MarkerOptions().position(loc).title("Your Location").snippet("You are here!"));
+                        m1.remove();
+                        m1=googleMap.addMarker(new MarkerOptions().position(loc).title("Your Location").snippet("You are here!"));
                         return false;
                     }
                 });
@@ -184,11 +190,14 @@ public class MapsFragment extends Fragment  implements SimpleLocationGetter.OnLo
             if (resultCode == RESULT_OK) {
                 Place place = PlaceAutocomplete.getPlace(getActivity(), data);
                 Log.i("Searched", "Place: " + place.getLatLng());
-                googleMap.addMarker(new MarkerOptions().position(place.getLatLng()).title(place.getName().toString()).snippet(place.getAddress().toString()));
+                if(m2!=null)
+                m2.remove();
+                m2=googleMap.addMarker(new MarkerOptions().position(place.getLatLng()).title(place.getName().toString()).snippet(place.getAddress().toString()));
                 googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
                 // For zooming automatically to the location of the marker
                 CameraPosition cameraPosition = new CameraPosition.Builder().target(place.getLatLng()).zoom(15).build();
                 googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+
             } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {
                 Status status = PlaceAutocomplete.getStatus(getActivity(), data);
                 // TODO: Handle the error.
