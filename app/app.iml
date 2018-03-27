@@ -108,6 +108,7 @@
     <orderEntry type="library" exported="" name="transition-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-messaging-11.8.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-common-license-11.8.0" level="project" />
+    <orderEntry type="library" exported="" name="android-maps-utils-0.5" level="project" />
     <orderEntry type="library" exported="" name="play-services-places-license-11.8.0" level="project" />
     <orderEntry type="library" exported="" name="butterknife-annotations-8.8.1" level="project" />
     <orderEntry type="library" exported="" name="support-db-1.0.0-alpha1" level="project" />

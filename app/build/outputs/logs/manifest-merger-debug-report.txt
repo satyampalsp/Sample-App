@@ -133,6 +133,7 @@ MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\DAFFODIL-29
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b5d496d5b7027856eddd1eb4133e1d7b3142a26d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\DAFFODIL-29\.android\build-cache\0adf71f3de84009ffb9d842fbd99ffbfc0511ded\output\AndroidManifest.xml:7:5-11:19
 	android:screenOrientation
 		ADDED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:21:9-45
 	android:label
@@ -225,6 +226,7 @@ ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\Andro
 meta-data#com.google.android.gms.version
 ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:72:9-74:69
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d1a9dc618e3e12fda3356a97aab867b57b1359cc\output\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\DAFFODIL-29\.android\build-cache\0adf71f3de84009ffb9d842fbd99ffbfc0511ded\output\AndroidManifest.xml:8:9-10:69
 	android:value
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:74:13-66
 	android:name
@@ -315,6 +317,7 @@ MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\DAFFODIL-29
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b5d496d5b7027856eddd1eb4133e1d7b3142a26d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\DAFFODIL-29\.android\build-cache\0adf71f3de84009ffb9d842fbd99ffbfc0511ded\output\AndroidManifest.xml:5:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
