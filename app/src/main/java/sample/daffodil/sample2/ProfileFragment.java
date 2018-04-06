@@ -1,28 +1,13 @@
 package sample.daffodil.sample2;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.arch.persistence.room.Room;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Point;
-import android.graphics.drawable.Drawable;
-import android.location.Location;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.util.Log;
-import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,10 +16,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.akhgupta.easylocation.EasyLocationActivity;
-import com.cloudinary.android.MediaManager;
-import com.cloudinary.android.callback.ErrorInfo;
-import com.cloudinary.android.callback.UploadCallback;
 import com.squareup.picasso.Picasso;
 import com.vansuita.pickimage.bean.PickResult;
 import com.vansuita.pickimage.bundle.PickSetup;
@@ -42,20 +23,12 @@ import com.vansuita.pickimage.dialog.PickImageDialog;
 import com.vansuita.pickimage.listeners.IPickCancel;
 import com.vansuita.pickimage.listeners.IPickResult;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
-import static android.app.Activity.RESULT_OK;
-import static android.content.Context.DISPLAY_SERVICE;
+import sample.daffodil.sample2.Database.User;
+import sample.daffodil.sample2.Database.UserDatabase;
 
 /**
  * Created by DAFFODIL-29 on 3/13/2018.
@@ -118,7 +91,7 @@ public class ProfileFragment extends Fragment {
                             public void onPickResult(PickResult r) {
                                 //TODO: do what you have to...
                                 Toast.makeText(getActivity(),r.getPath().toString(),Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getActivity(), ImageUploadService.class);
+                                Intent intent = new Intent(getActivity(), sample.daffodil.sample2.ImageUploadService.class);
                                 Bundle b = new Bundle();
                                 b.putString("File", r.getPath());
                                 intent.putExtras(b);

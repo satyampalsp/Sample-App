@@ -400,6 +400,139 @@
                         "endOffset": 424
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 3090,
+                    "endColumn": 73,
+                    "endOffset": 3159
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-si\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 235,
+                        "endColumn": 69,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 3164,
+                    "endColumn": 121,
+                    "endOffset": 3281
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-si\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 305,
+                        "endColumn": 117,
+                        "endOffset": 422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3286,
+                    "endColumn": 69,
+                    "endOffset": 3351
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-si\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 423,
+                        "endColumn": 65,
+                        "endOffset": 488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3356,
+                    "endColumn": 78,
+                    "endOffset": 3430
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-si\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 489,
+                        "endColumn": 74,
+                        "endOffset": 563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3435,
+                    "endColumn": 85,
+                    "endOffset": 3516
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-si\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 564,
+                        "endColumn": 81,
+                        "endOffset": 645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3521,
+                    "endColumn": 112,
+                    "endOffset": 3629
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-si\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 646,
+                        "endColumn": 108,
+                        "endOffset": 754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3634,
+                    "endColumn": 81,
+                    "endOffset": 3711
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-si\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 755,
+                        "endColumn": 77,
+                        "endOffset": 832
+                    }
+                }
             }
         ]
     }

@@ -767,8 +767,141 @@
                     "startLine": 42,
                     "startColumn": 4,
                     "startOffset": 4999,
+                    "endColumn": 73,
+                    "endOffset": 5068
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-fi\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 235,
+                        "endColumn": 69,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5073,
+                    "endColumn": 119,
+                    "endOffset": 5188
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-fi\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 305,
+                        "endColumn": 115,
+                        "endOffset": 420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5193,
+                    "endColumn": 68,
+                    "endOffset": 5257
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-fi\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 421,
+                        "endColumn": 64,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5262,
+                    "endColumn": 67,
+                    "endOffset": 5325
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-fi\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 486,
+                        "endColumn": 63,
+                        "endOffset": 549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5330,
+                    "endColumn": 83,
+                    "endOffset": 5409
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-fi\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 550,
+                        "endColumn": 79,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5414,
+                    "endColumn": 118,
+                    "endOffset": 5528
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-fi\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 630,
+                        "endColumn": 114,
+                        "endOffset": 744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5533,
+                    "endColumn": 72,
+                    "endOffset": 5601
+                },
+                "from": {
+                    "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\79052da5cbba35712ee606b759af35a9cbde9b01\\output\\res\\values-fi\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 745,
+                        "endColumn": 68,
+                        "endOffset": 813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5606,
                     "endColumn": 79,
-                    "endOffset": 5074
+                    "endOffset": 5681
                 },
                 "from": {
                     "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\values-fi\\values-fi.xml",
@@ -783,11 +916,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 5079,
+                    "startOffset": 5686,
                     "endColumn": 100,
-                    "endOffset": 5175
+                    "endOffset": 5782
                 },
                 "from": {
                     "file": "C:\\Users\\DAFFODIL-29\\.android\\build-cache\\f13a0dabd1d5a002452947e93704e8babfc44d82\\output\\res\\values-fi\\values-fi.xml",

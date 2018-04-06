@@ -52,7 +52,6 @@ public class GetDirectionsData extends AsyncTask<Object,String,String> {
         try {
             String points=directionList.getJSONObject(0).getJSONObject("overview_polyline").get("points").toString();
             decoded = PolyUtil.decode(points);
-            mMap.clear();
             mMap.addPolyline(new PolylineOptions().addAll(decoded).width(15).color(Color.BLUE));
         } catch (JSONException e) {
             e.printStackTrace();

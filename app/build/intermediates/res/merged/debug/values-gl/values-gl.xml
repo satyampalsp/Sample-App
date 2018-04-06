@@ -21,4 +21,11 @@
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Varios"</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Borra a busca"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Buscar"</string>
+    <string msgid="368094699078615544" name="s1">"Gardar imaxe"</string>
+    <string msgid="4550830452390689489" name="s2">"Queres permitir que o anuncio almacene imaxes na galería de imaxes?"</string>
+    <string msgid="2435407834265420668" name="s3">"Aceptar"</string>
+    <string msgid="9167523597401839819" name="s4">"Rexeitar"</string>
+    <string msgid="1566682516266724847" name="s5">"Crear evento do calendario"</string>
+    <string msgid="5996672174517137271" name="s6">"Queres permitir que o anuncio cree un evento do calendario?"</string>
+    <string msgid="7163549807207034258" name="s7">"Probar anuncio"</string>
 </resources>

@@ -2,6 +2,7 @@ package sample.daffodil.sample2;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +11,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.List;
 
@@ -38,7 +43,6 @@ public class HomeFragment extends Fragment {
         StaggeredGridLayoutManager staggeredGridLayoutManager=new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
         recyler.setLayoutManager(staggeredGridLayoutManager);
         getList();
-
         return view;
     }
     void getList(){
@@ -56,15 +60,10 @@ public class HomeFragment extends Fragment {
              call.enqueue(new Callback<List<ConfHall>>() {
                 @Override
                 public void onResponse(Call<List<ConfHall>> call, Response<List<ConfHall>> response) {
-                    //Log.d("onResponse", response.message());
-
                     List<ConfHall> userList = response.body();
-
                     RecycleViewAdapter recyclerViewAdapter =
                             new RecycleViewAdapter(userList);
-
                     recyler.setAdapter(recyclerViewAdapter);
-
                     progressDoalog.dismiss();
                 }
 

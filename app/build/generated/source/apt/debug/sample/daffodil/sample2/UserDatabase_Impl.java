@@ -2,20 +2,19 @@ package sample.daffodil.sample2;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.db.SupportSQLiteOpenHelper;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Callback;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Configuration;
 import android.arch.persistence.room.DatabaseConfiguration;
 import android.arch.persistence.room.InvalidationTracker;
 import android.arch.persistence.room.RoomOpenHelper;
-import android.arch.persistence.room.RoomOpenHelper.Delegate;
 import android.arch.persistence.room.util.TableInfo;
-import android.arch.persistence.room.util.TableInfo.Column;
-import android.arch.persistence.room.util.TableInfo.ForeignKey;
+
 import java.lang.IllegalStateException;
 import java.lang.Override;
 import java.lang.String;
 import java.util.HashMap;
 import java.util.HashSet;
+
+import sample.daffodil.sample2.Database.UserDao;
+import sample.daffodil.sample2.Database.UserDatabase;
 
 public class UserDatabase_Impl extends UserDatabase {
   private volatile UserDao _userDao;
@@ -51,7 +50,7 @@ public class UserDatabase_Impl extends UserDatabase {
         final TableInfo _infoUser = new TableInfo("User", _columnsUser, _foreignKeysUser);
         final TableInfo _existingUser = TableInfo.read(_db, "User");
         if (! _infoUser.equals(_existingUser)) {
-          throw new IllegalStateException("Migration didn't properly handle User(sample.daffodil.sample2.User).\n"
+          throw new IllegalStateException("Migration didn't properly handle User(sample.daffodil.sample2.Database.User).\n"
                   + " Expected:\n" + _infoUser + "\n"
                   + " Found:\n" + _existingUser);
         }

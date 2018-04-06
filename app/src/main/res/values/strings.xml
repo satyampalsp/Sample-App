@@ -6,4 +6,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5654044967858938/4010470119</string>
+
 </resources>

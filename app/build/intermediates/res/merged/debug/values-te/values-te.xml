@@ -21,4 +21,11 @@
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"ఇతరాలు"</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"శోధనను తీసివేస్తుంది"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"శోధించండి"</string>
+    <string msgid="368094699078615544" name="s1">"చిత్రాన్ని సేవ్ చేయి"</string>
+    <string msgid="4550830452390689489" name="s2">"చిత్ర గ్యాలరీలో చిత్రాన్ని నిల్వ చేయడానికి ప్రకటనను అనుమతించాలా?"</string>
+    <string msgid="2435407834265420668" name="s3">"అనుమతించు"</string>
+    <string msgid="9167523597401839819" name="s4">"తిరస్కరించు"</string>
+    <string msgid="1566682516266724847" name="s5">"క్యాలెండర్ ఈవెంట్‌ను సృష్టించు"</string>
+    <string msgid="5996672174517137271" name="s6">"క్యాలెండర్ ఈవెంట్‌ను సృష్టించడానికి ప్రకటనను అనుమతించాలా?"</string>
+    <string msgid="7163549807207034258" name="s7">"ప్రకటనను పరీక్షించండి"</string>
 </resources>

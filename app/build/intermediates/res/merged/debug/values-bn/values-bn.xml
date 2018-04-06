@@ -21,4 +21,11 @@
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"বিবিধ"</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"অনুসন্ধান সাফ করুন"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"খুঁজুন"</string>
+    <string msgid="368094699078615544" name="s1">"ছবি সেভ করুন"</string>
+    <string msgid="4550830452390689489" name="s2">"বিজ্ঞাপনকে ছবির গ্যালারিতে ছবি সংরক্ষণ করার অনুমতি দেবেন?"</string>
+    <string msgid="2435407834265420668" name="s3">"গ্রহণ করুন"</string>
+    <string msgid="9167523597401839819" name="s4">"প্রত্যাখ্যান করুন"</string>
+    <string msgid="1566682516266724847" name="s5">"ক্যালেন্ডার ইভেন্ট তৈরি করুন"</string>
+    <string msgid="5996672174517137271" name="s6">"বিজ্ঞাপনকে একটি ক্যালেন্ডার ইভেন্ট তৈরি করার অনুমতি দেবেন?"</string>
+    <string msgid="7163549807207034258" name="s7">"পরীক্ষামূলক বিজ্ঞাপন"</string>
 </resources>

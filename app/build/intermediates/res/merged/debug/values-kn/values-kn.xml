@@ -21,4 +21,11 @@
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"ಇತರೆ"</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"ಹುಡುಕಿ"</string>
+    <string msgid="368094699078615544" name="s1">"ಚಿತ್ರ ಉಳಿಸಿ"</string>
+    <string msgid="4550830452390689489" name="s2">"ಚಿತ್ರದ ಗ್ಯಾಲರಿಯಲ್ಲಿ ಚಿತ್ರ ಸಂಗ್ರಹಿಸಿಡಲು ಜಾಹೀರಾತಿಗೆ ಅನುಮತಿಸುವುದೇ?"</string>
+    <string msgid="2435407834265420668" name="s3">"ಸಮ್ಮತಿಸಿ"</string>
+    <string msgid="9167523597401839819" name="s4">"ನಿರಾಕರಿಸಿ"</string>
+    <string msgid="1566682516266724847" name="s5">"ಕ್ಯಾಲೆಂಡರ್ ಈವೆಂಟ್ ರಚಿಸಿ"</string>
+    <string msgid="5996672174517137271" name="s6">"ಕ್ಯಾಲೆಂಡರ್ ಈವೆಂಟ್ ರಚಿಸಲು ಜಾಹೀರಾತಿಗೆ ಅನುಮತಿಸುವುದೇ?"</string>
+    <string msgid="7163549807207034258" name="s7">"ಪರೀಕ್ಷಾ ಜಾಹೀರಾತು"</string>
 </resources>

@@ -15,6 +15,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
 import android.util.Log;
+import android.view.InflateException;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +25,10 @@ import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.api.Status;
@@ -34,6 +39,7 @@ import com.google.android.gms.location.places.ui.PlaceSelectionListener;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.LocationSource;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -74,31 +80,36 @@ import static android.app.Activity.RESULT_OK;
  */
 
 public class MapsFragment extends Fragment {
-    View view;
+    View view=null;
     MapView mMapView;
     private static final String API_KEY = "AIzaSyDdK10bxb18t3a4zVjV62GtQbY9TCk1PPs";
     final String TAG = "GPS";
-    Marker m1=null,m2=null;
+    Marker m1=null,m2=null,selfLocation=null;
     int firstCameraMove=0;
-    LocationManager locationManager;
     GoogleMap googleMap;
-    String provider;
     String url;
     JSONArray directions;
     String loadUrl=null;
     Object datatransfer[];
     int PLACE_AUTOCOMPLETE_REQUEST_CODE = 1;
     Boolean MAP_MODE=true;
+    Boolean markerOneDrag=false;
     Button changeMapView;
     ImageView searchView;
+    private AdView mAdView;
+    private InterstitialAd mInterstitialAd;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 // Inflate the layout for this fragment
+        if(view==null)
         view = inflater.inflate(R.layout.maps_fragment, container, false);
         mMapView = (MapView) view.findViewById(R.id.id_google_maps);
         mMapView.onCreate(savedInstanceState);
         mMapView.onResume();
+        mInterstitialAd = new InterstitialAd(getContext());
+        mInterstitialAd.setAdUnitId("ca-app-pub-5654044967858938/7431275144");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
         changeMapView=(Button)view.findViewById(R.id.id_maps_view_change);
         changeMapView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -154,12 +165,12 @@ public class MapsFragment extends Fragment {
                         CameraPosition cameraPosition = new CameraPosition.Builder().target(loc).zoom(15).build();
                         googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
                         m1.remove();
+                        markerOneDrag=false;
                         m1=googleMap.addMarker(new MarkerOptions().position(loc).title("Your Location").snippet("You are here!").draggable(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_account_circle_black_24dp)));
                         return false;
                     }
                 });
                 googleMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
-                    boolean markerOne=false;
 
                     @Override
                     public void onMarkerDragStart(Marker marker) {
@@ -175,44 +186,47 @@ public class MapsFragment extends Fragment {
                     public void onMarkerDragEnd(Marker marker) {
                         if(m1.getId().equals(marker.getId())){
                             m1=marker;
+                            markerOneDrag=true;
                         }
                         else if(m2.getId().equals(marker.getId())){
+                            m2.remove();
                             m2=marker;
-                        }
+                        }m1.remove();
+                        googleMap.clear();
                         m1=googleMap.addMarker(new MarkerOptions().position(m1.getPosition()).title("Drop Location").snippet(""+m1.getPosition().latitude+","+m1.getPosition().longitude).draggable(true));
                         if (m2!=null) {
-                            m2 = googleMap.addMarker(new MarkerOptions().position(m2.getPosition()).title("Drop Location").snippet(""+m2.getPosition().latitude+","+m2.getPosition().longitude).draggable(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.maps_icon)));
+                            m2 = googleMap.addMarker(new MarkerOptions().position(m2.getPosition()).title("Drop Location").snippet(""+m2.getPosition().latitude+","+m2.getPosition().longitude).draggable(true));
                         }
-                        }
+                    }
                 });
                 googleMap.setOnMyLocationChangeListener(new GoogleMap.OnMyLocationChangeListener() {
                     @Override
                     public void onMyLocationChange(Location location) {
-                        LatLng loc=new LatLng(location.getLatitude(),location.getLongitude());
-                        if(firstCameraMove==0) {
-                            CameraPosition cameraPosition = new CameraPosition.Builder().target(loc).zoom(15).build();
-                            googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
-                            firstCameraMove++;
-                        }m1.remove();
-                        m1=googleMap.addMarker(new MarkerOptions().position(loc).title("Your Location").snippet("You are here!").draggable(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_account_circle_black_24dp)));
-                    }
+                        if(markerOneDrag==false) {
+                            LatLng loc = new LatLng(location.getLatitude(), location.getLongitude());
+                                if(m2==null) {
+                                    CameraPosition cameraPosition = new CameraPosition.Builder().target(loc).zoom(15).build();
+                                    googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+                                }m1.remove();
+                                m1=googleMap.addMarker(new MarkerOptions().position(loc).title("Drop Location").snippet(""+loc.latitude+","+loc.longitude).draggable(true).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_account_circle_black_24dp)));
+                            }
+                           }
                 });
             }
         });
         final Button direction=(Button)view.findViewById(R.id.id_maps_view_directions);
         direction.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                if(m2==null){
-                    Toast.makeText(getContext(), "Select Destination first!", Toast.LENGTH_SHORT).show();
-                    search();
-                }
-                else {
-                    getDirections();
-                }
+            public void onClick(View v){
+            if (m2 == null) {
+                Toast.makeText(getContext(), "Select Destination first!", Toast.LENGTH_SHORT).show();
+                search();
+            } else {
+                markerOneDrag=true;
+                getDirections();
+            }
                }
         });
-
         return view;
     }
     @Override
@@ -292,7 +306,6 @@ public class MapsFragment extends Fragment {
     }
     @Override
     public void onDetach() {
-        getActivity().getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
         super.onDetach();
     }
     void getDirections(){
@@ -304,7 +317,11 @@ public class MapsFragment extends Fragment {
             datatransfer[1] = url;
             GetDirectionsData getDirectionsData = new GetDirectionsData();
             getDirectionsData.execute(datatransfer);
+            googleMap.clear();
             directions = getDirectionsData.getDirections();
+            m1=googleMap.addMarker(new MarkerOptions().position(m1.getPosition()).title("Drop Location").snippet(""+m1.getPosition().latitude+","+m1.getPosition().longitude).draggable(true));
+            m2=googleMap.addMarker(new MarkerOptions().position(m2.getPosition()).title("Drop Location").snippet(""+m2.getPosition().latitude+","+m2.getPosition().longitude).draggable(true));
         }
     }
+
 }

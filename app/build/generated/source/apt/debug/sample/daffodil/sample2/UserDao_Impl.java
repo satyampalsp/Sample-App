@@ -11,6 +11,9 @@ import java.lang.String;
 import java.util.ArrayList;
 import java.util.List;
 
+import sample.daffodil.sample2.Database.User;
+import sample.daffodil.sample2.Database.UserDao;
+
 public class UserDao_Impl implements UserDao {
   private final RoomDatabase __db;
 

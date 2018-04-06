@@ -21,4 +21,11 @@
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"ਫੁਟਕਲ"</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"ਖੋਜ ਕਲੀਅਰ ਕਰੋ"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"ਖੋਜੋ"</string>
+    <string msgid="368094699078615544" name="s1">"ਚਿੱਤਰ ਰੱਖਿਅਤ ਕਰੋ"</string>
+    <string msgid="4550830452390689489" name="s2">"ਕੀ ਇਸ਼ਤਿਹਾਰ ਨੂੰ ਤਸਵੀਰ ਗੈਲਰੀ ਵਿੱਚ ਚਿੱਤਰ ਸਟੋਰ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਹੈ?"</string>
+    <string msgid="2435407834265420668" name="s3">"ਸਵੀਕਾਰ ਕਰੋ"</string>
+    <string msgid="9167523597401839819" name="s4">"ਅਸਵੀਕਾਰ ਕਰੋ"</string>
+    <string msgid="1566682516266724847" name="s5">"ਕੈਲੰਡਰ ਵਰਤਾਰਾ ਬਣਾਓ"</string>
+    <string msgid="5996672174517137271" name="s6">"ਕੀ ਇਸ਼ਤਿਹਾਰ ਨੂੰ ਇੱਕ ਕੈਲੰਡਰ ਵਰਤਾਰਾ ਬਣਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਹੈ?"</string>
+    <string msgid="7163549807207034258" name="s7">"ਟੈਸਟ ਇਸ਼ਤਿਹਾਰ"</string>
 </resources>
