@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
+import sample.daffodil.sample2.Activities.FirstActivity;
+
 import java.lang.IllegalStateException;
 import java.lang.Override;
 

@@ -2,21 +2,15 @@ package sample.daffodil.sample2.Model;
 
 import android.arch.persistence.room.Room;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.widget.CardView;
 import android.util.Base64;
 import android.widget.Toast;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
-import java.util.concurrent.RecursiveTask;
 
 import sample.daffodil.sample2.Database.User;
-import sample.daffodil.sample2.Database.UserDao;
 import sample.daffodil.sample2.Database.UserDatabase;
-import sample.daffodil.sample2.FirstActivity;
-import sample.daffodil.sample2.Activity.MainActivity;
 
 /**
  * Created by DAFFODIL-29 on 4/5/2018.

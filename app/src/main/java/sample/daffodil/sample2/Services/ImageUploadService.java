@@ -1,35 +1,36 @@
-package sample.daffodil.sample2;
+package sample.daffodil.sample2.Services;
 
-import android.app.Notification;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.support.annotation.IntDef;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.NotificationCompat;
-import android.view.View;
-import android.view.ViewStub;
+import android.view.LayoutInflater;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.cloudinary.android.MediaManager;
 import com.cloudinary.android.callback.ErrorInfo;
 import com.cloudinary.android.callback.UploadCallback;
-import com.vansuita.pickimage.img.ImageHandler;
+import com.squareup.picasso.Picasso;
 
 import java.util.Map;
 
-import static java.security.AccessController.getContext;
-import static sample.daffodil.sample2.ProfileFragment.*;
+import sample.daffodil.sample2.Activities.MainActivity;
+import sample.daffodil.sample2.Fragments.ProfileFragment;
+import sample.daffodil.sample2.R;
 
 public class ImageUploadService extends Service {
     public ImageUploadService() {
     }
+
     @Override
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.
@@ -51,7 +52,6 @@ public class ImageUploadService extends Service {
         if(intent != null){
             Bundle bundle = intent.getExtras();
             file = bundle.getString("File");
-
         }
 
         String requestId = MediaManager.get().upload(file).callback(new UploadCallback() {
@@ -84,9 +84,12 @@ public class ImageUploadService extends Service {
                 editor.apply();
                 uploadNotification.setContentText("Uploaded Successfully");
                 notification.notify(0,uploadNotification.build());
-//                Intent i=new Intent(getApplicationContext(),MainActivity.class);
-//                startActivity(i);
-                ImageUploadService.this.stopSelf();;
+                LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
+                        (Context.LAYOUT_INFLATER_SERVICE);
+                LinearLayout ll = (LinearLayout) inflater.inflate(R.layout.activity_main, null);
+                ImageView profileImage=(ImageView)ll.findViewById(R.id.id_profile_image_big);
+                Picasso.with(getApplicationContext()).load(url).fit().into(profileImage);
+                ImageUploadService.this.stopSelf();
             }
             @Override
             public void onError(String requestId, ErrorInfo error) {
@@ -102,9 +105,10 @@ public class ImageUploadService extends Service {
 
         return super.onStartCommand(intent, flags, startId);
     }
-
     @Override
     public void onDestroy() {
+        Toast.makeText(this, "service Destroyed.", Toast.LENGTH_SHORT).show();
         super.onDestroy();
+
     }
 }

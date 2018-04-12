@@ -3,12 +3,147 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\DAFFODIL-29\.android\build-cache\0adf71f3de84009ffb9d842fbd99ffbfc0511ded\output\jars\classes.jar"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\79052da5cbba35712ee606b759af35a9cbde9b01\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
-        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_7cc5f204c57fbe979e8d8e0d63b14351abf710c7.jar" />
+        sha1="aeca0a0ab86831ec59a54723205ce9341ac22d1b">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_3c3f77a52edf12a2ddf664c39cd46331ded25db4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\d25361844bdcfb75a5bdae3d50d639aede8e7f79\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="13430a12bb2eb82b397f10f61fe1f6989279c6bd">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_c7ecd56dd3f9d8aec2a6f88d8b611e65dbf88c6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\6eb2736267e6fabdb5dad5435873eb6ab08ba5cc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="72f505f7eac0852708ca385457d643ea9887166e">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_3ceef4734a5aa88f5f90366d85e6bda3b9f17795.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c601ce0dc38ec4845f5de5015d275da8bee153a3">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_2292b0027816514dc912cb2e8c726848e9a3ee12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\a38353f7b42ce671f0628a3669408070c753874f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="24cb9bae5fbe94df0f55d87452a291b69a2f22bf">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_c1b132561eb0f4038d615cb7d128638424df4995.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\7e89d4941d0e27d0fcaf22e08bc7241d1072e567\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6694a48b4aee711a0577936e25068b4ea3eafc8b">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_c3a234c2af9e676b5ec7c64b6acd64a60a5c5cbb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59da593716f1cd8e8f86762164af8908160a6b9b">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a7e45ec78451824f77633836c04c862c9159a476\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\495d7a5e380a74a912fa82ce872f2242825c0040\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1b982cc8b5ab6f788690238dbe3ac3bb19f88b1a">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_886c0457f3eef755a5bf5947dfdcbc94278b008f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\cc867bdd6639b481031a770f6d5e77ef8d986312\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a7760a45a6c9f425aaa43ef391a8cf28a8bcb4a1">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_de1110e4b30ba86ac6e7f1f0415eb4e6d2e3d9f7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\ea4682863ac2008a68115932dd7bb34068a36f16\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ed04a0ae7198b0d5d0e965d6afdb0fe784dcfbee">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c017ff8c205a2a156468ca3dff9f4d68d598e044\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\ea4682863ac2008a68115932dd7bb34068a36f16\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ed04a0ae7198b0d5d0e965d6afdb0fe784dcfbee">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_c017ff8c205a2a156468ca3dff9f4d68d598e044.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\495d7a5e380a74a912fa82ce872f2242825c0040\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1b982cc8b5ab6f788690238dbe3ac3bb19f88b1a">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_886c0457f3eef755a5bf5947dfdcbc94278b008f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ed2f8a7e5fc14dee185abb627a1781481392d9bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\3db1568aaba5c0652842ce80c09cbc09be15f406\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4d59952df819e82578ba198c1b1a2d3f1525fd3f">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_8be01266abf2a1823059a49888b5053f2fe0763b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\480a771d46acd7cd0791f2ba054083b5e6f31597\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a743d0934e90e7f26d75a2463142c4b884b2981">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_6420618c7710833bf205db7b269c587cc9315438.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c5bc72ad3250d065128d1d7514279be703e57bd0">
+        <dex dex="C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\build\intermediates\pre-dexed\debug\classes_dacd52e609e5ebaf51e30caef6f8d3d14e30d845.jar" />
     </item>
 
 </items>

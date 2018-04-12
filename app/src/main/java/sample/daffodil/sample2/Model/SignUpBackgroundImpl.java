@@ -2,19 +2,15 @@ package sample.daffodil.sample2.Model;
 
 import android.arch.persistence.room.Room;
 import android.content.Context;
-import android.content.Intent;
-import android.provider.ContactsContract;
 import android.util.Base64;
 import android.widget.Toast;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-import sample.daffodil.sample2.Activity.RegisterActivity;
 import sample.daffodil.sample2.Database.User;
 import sample.daffodil.sample2.Database.UserDao;
 import sample.daffodil.sample2.Database.UserDatabase;
-import sample.daffodil.sample2.FirstActivity;
 
 /**
  * Created by DAFFODIL-29 on 4/6/2018.

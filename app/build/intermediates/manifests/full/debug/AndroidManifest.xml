@@ -60,23 +60,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="sample.daffodil.sample2.Activity.MainActivity"
+            android:name="sample.daffodil.sample2.Activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="sample.daffodil.sample2.Activity.SplashScreen" >
+        <activity android:name="sample.daffodil.sample2.Activities.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="sample.daffodil.sample2.FirstActivity" />
-        <activity android:name="sample.daffodil.sample2.Activity.RegisterActivity" />
+        <activity android:name="sample.daffodil.sample2.Activities.FirstActivity" />
+        <activity android:name="sample.daffodil.sample2.Activities.RegisterActivity" />
 
+        <service android:name="sample.daffodil.sample2.Services.ImageUploadService" >
+        </service>
         <service android:name="sample.daffodil.sample2.FirebaseIDService" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
