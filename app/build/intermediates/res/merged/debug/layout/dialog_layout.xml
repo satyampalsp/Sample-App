@@ -4,8 +4,6 @@
     android:layout_height="300dp"
     android:gravity="center"
     android:layout_gravity="center">
-
-
     <ImageView
         android:id="@+id/dialog_imageview"
         android:layout_width="match_parent"
@@ -13,5 +11,4 @@
         android:padding="10dp"
         android:layout_gravity="center"
         android:src="@mipmap/logo" />
-
 </LinearLayout>

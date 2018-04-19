@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:2:1-103:12
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:2:1-115:12
 	package
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml
@@ -17,7 +17,7 @@ ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\Andro
 		INJECTED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
 ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:6:5-8:36
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:13:5-60
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:13:5-60
 	android:required
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:8:9-33
 		MERGED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:8:9-33
@@ -25,7 +25,7 @@ MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.androi
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:7:9-47
 uses-feature#android.hardware.camera.autofocus
 ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:9:5-11:36
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:14:5-70
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:14:5-70
 	android:required
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:11:9-33
 		MERGED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:11:9-33
@@ -39,7 +39,7 @@ ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\Andro
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:13:9-53
 uses-permission#android.permission.CAMERA
 ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:16:5-65
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:11:5-65
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:11:5-65
 	android:name
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:16:22-62
 uses-permission#ANDROID.PERMISSION.READ_EXTERNAL_STORAGE
@@ -57,17 +57,17 @@ ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\Andro
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:20:5-67
 MERGED from [com.cloudinary:cloudinary-android:1.20.0] C:\Users\DAFFODIL-29\.android\build-cache\18c425cc27782d0135628e095f71ef870f7df21e\output\AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\DAFFODIL-29\.android\build-cache\480a771d46acd7cd0791f2ba054083b5e6f31597\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\DAFFODIL-29\.android\build-cache\6eb2736267e6fabdb5dad5435873eb6ab08ba5cc\output\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\DAFFODIL-29\.android\build-cache\d25361844bdcfb75a5bdae3d50d639aede8e7f79\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\build-cache\7e89d4941d0e27d0fcaf22e08bc7241d1072e567\output\AndroidManifest.xml:29:5-67
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\ed0dc30b7e2f9bb2166f6b486cb1d9398bcc879d\output\AndroidManifest.xml:24:5-67
 MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\DAFFODIL-29\.android\build-cache\1031f329d62816c63c59563417ecb8532ec4a4fd\output\AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\a38353f7b42ce671f0628a3669408070c753874f\output\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\54b6a7b43aba77df649cfc9d0c91325dabff19aa\output\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\8396a5f0676f4ce7c9a54a08aa00970f1892f104\output\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\e3395bcfdf777be233fd131da6ec432b58830b73\output\AndroidManifest.xml:23:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\DAFFODIL-29\.android\build-cache\480a771d46acd7cd0791f2ba054083b5e6f31597\output\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\DAFFODIL-29\.android\build-cache\6eb2736267e6fabdb5dad5435873eb6ab08ba5cc\output\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\DAFFODIL-29\.android\build-cache\d25361844bdcfb75a5bdae3d50d639aede8e7f79\output\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\build-cache\7e89d4941d0e27d0fcaf22e08bc7241d1072e567\output\AndroidManifest.xml:29:5-67
 	android:name
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:20:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -86,7 +86,7 @@ ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\Andro
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:22:22-95
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:23:5-81
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:16:5-81
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:16:5-81
 	android:name
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:23:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -99,31 +99,29 @@ MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\DAFFODIL-29\.andr
 	android:name
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:27:22-76
 application
-ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:29:5-101:19
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:29:5-113:19
+MERGED from [com.cloudinary:cloudinary-android:1.20.0] C:\Users\DAFFODIL-29\.android\build-cache\18c425cc27782d0135628e095f71ef870f7df21e\output\AndroidManifest.xml:13:5-67
+MERGED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:16:5-58:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\DAFFODIL-29\.android\build-cache\480a771d46acd7cd0791f2ba054083b5e6f31597\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.2] C:\Users\DAFFODIL-29\.android\build-cache\3db1568aaba5c0652842ce80c09cbc09be15f406\output\AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\DAFFODIL-29\.android\build-cache\6eb2736267e6fabdb5dad5435873eb6ab08ba5cc\output\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\DAFFODIL-29\.android\build-cache\d25361844bdcfb75a5bdae3d50d639aede8e7f79\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\build-cache\7e89d4941d0e27d0fcaf22e08bc7241d1072e567\output\AndroidManifest.xml:31:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DAFFODIL-29\.android\build-cache\fa11e404fe6e26a24aa596f3fe2677097c96b9de\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\5d2767820ec1bd1aeb0ba01c6e3e748b6750cc38\output\AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:22:5-30:19
-MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\c7b3b89dd9e129b5f2db093d46f7c560b3f7e4b9\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d91c9e8a691c9aab9d02a626c0db07b6d62ab472\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0f6888799e753807b194658e5d3a8e3f87a6d40c\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\599c0ea5941f2a102017542fe825431bcd90bce9\output\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\edaa63946bd5dfb7d37f8c47b6ee8390471bbdf5\output\AndroidManifest.xml:5:5-20
-MERGED from [com.cloudinary:cloudinary-android:1.20.0] C:\Users\DAFFODIL-29\.android\build-cache\18c425cc27782d0135628e095f71ef870f7df21e\output\AndroidManifest.xml:13:5-67
-MERGED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:16:5-58:19
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:18:5-31:19
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\11b25adae587fd1454c5136513cdefc9d52db9d4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:18:5-31:19
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\ed0dc30b7e2f9bb2166f6b486cb1d9398bcc879d\output\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\9f6bf117ea83a6141abc48ce3ba51648f095cf3a\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d1de5aeef3a823ffda0ad4a580ce1a4e251fcf59\output\AndroidManifest.xml:5:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\DAFFODIL-29\.android\build-cache\49b9f552514703ec4ce043ea0f884916260be814\output\AndroidManifest.xml:9:5-20
 MERGED from [com.github.skullper:locationgetter:0.1] C:\Users\DAFFODIL-29\.android\build-cache\8231ea3ba75dcabd048fdb6c329c7025a80500f3\output\AndroidManifest.xml:11:5-15:19
 MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\DAFFODIL-29\.android\build-cache\1031f329d62816c63c59563417ecb8532ec4a4fd\output\AndroidManifest.xml:14:5-21:19
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\f13a0dabd1d5a002452947e93704e8babfc44d82\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\DAFFODIL-29\.android\build-cache\0adf71f3de84009ffb9d842fbd99ffbfc0511ded\output\AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.firebase:firebase-ads:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\e2ce0963bf9399e485e9042f4b21eaa26ff7d56c\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\a38353f7b42ce671f0628a3669408070c753874f\output\AndroidManifest.xml:26:5-34:19
@@ -140,6 +138,25 @@ MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\DAF
 MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\016706d8e79643099afe493d944051125c37a7a9\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\afd79794ffe647a12e5849dcee6d086416078a91\output\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\15a29503a26f9bceae73ba6f7ff44c7ea3b33752\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\486fe62741984ed39bb31e2d6bcefddc5083ffe9\output\AndroidManifest.xml:5:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\052350bcc8eb8211e6065e688103f448e0685789\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\2f2782c26bfebf61c08ecc675c9e3952224ca421\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\306cadc15f838e17fefde263bfa75ab0172a3636\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\02fb3c1ca24061445d8aacdf3a9283ddedb38bae\output\AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\f13a0dabd1d5a002452947e93704e8babfc44d82\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\11b25adae587fd1454c5136513cdefc9d52db9d4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\c519356b5b02bb1c95c1a2e31056ac26e522f603\output\AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.android:facebook-places:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\756e03c4299bb98986f42083475935a186f64094\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\099a76b536a1e786311602bc1f348c84f1c2003f\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\1f489ad855cc812d96b8cdc17c7a806d88204037\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\df19bb7de627bf656b7539cc0638dfdbec69c5a8\output\AndroidManifest.xml:28:5-43:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\b28671818a95cb1bce33f157af83554def012fb4\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d1060386db6816aa9efb25210496a115e2205631\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\9f6bf117ea83a6141abc48ce3ba51648f095cf3a\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\e6cd3e9e547513ddfae475a691479d3b4ae37c0b\output\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d1a9dc618e3e12fda3356a97aab867b57b1359cc\output\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\7c6fe40375a6b4acc2854275629a7ec1d4551734\output\AndroidManifest.xml:29:5-20
@@ -150,18 +167,11 @@ MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\DAFFODIL-29
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b5d496d5b7027856eddd1eb4133e1d7b3142a26d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\a023a638aafcc4886f8eb896684f13b5450b42d4\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\81805fd7694819bc9c7ba13900ec30543ebb9869\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\486fe62741984ed39bb31e2d6bcefddc5083ffe9\output\AndroidManifest.xml:5:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:11:5-17:19
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\DAFFODIL-29\.android\build-cache\480a771d46acd7cd0791f2ba054083b5e6f31597\output\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.2] C:\Users\DAFFODIL-29\.android\build-cache\3db1568aaba5c0652842ce80c09cbc09be15f406\output\AndroidManifest.xml:31:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\DAFFODIL-29\.android\build-cache\6eb2736267e6fabdb5dad5435873eb6ab08ba5cc\output\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\DAFFODIL-29\.android\build-cache\d25361844bdcfb75a5bdae3d50d639aede8e7f79\output\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\build-cache\7e89d4941d0e27d0fcaf22e08bc7241d1072e567\output\AndroidManifest.xml:31:5-20
 	android:screenOrientation
-		ADDED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:21:9-45
+		ADDED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:21:9-45
 	android:label
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:32:9-41
-		REJECTED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:20:9-41
+		REJECTED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:20:9-41
 		REJECTED from [com.github.skullper:locationgetter:0.1] C:\Users\DAFFODIL-29\.android\build-cache\8231ea3ba75dcabd048fdb6c329c7025a80500f3\output\AndroidManifest.xml:13:9-41
 		REJECTED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\DAFFODIL-29\.android\build-cache\1031f329d62816c63c59563417ecb8532ec4a4fd\output\AndroidManifest.xml:16:9-41
 	android:supportsRtl
@@ -173,7 +183,7 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\b
 	tools:ignore
 		ADDED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:16:18-44
 	android:configChanges
-		ADDED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:19:9-44
+		ADDED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:19:9-44
 	android:allowBackup
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:30:9-35
 	android:icon
@@ -215,9 +225,9 @@ ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:53:19-62
 service#sample.daffodil.sample2.Services.ImageUploadService
-ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:54:9-55:19
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:55:9-72
 	android:name
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:54:18-61
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:55:18-61
 service#sample.daffodil.sample2.FirebaseIDService
 ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:56:9-60:19
 	android:name
@@ -265,75 +275,106 @@ ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:77:13-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:82:9-84:71
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:80:9-82:71
 	android:value
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:84:13-68
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:82:13-68
 	android:name
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:83:13-58
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:81:13-58
 provider#android.support.v4.content.FileProvider
-ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:86:9-95:20
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:22:9-30:20
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:84:9-93:20
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:22:9-30:20
 	android:authorities
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:88:13-83
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:86:13-83
 		INJECTED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml
-		REJECTED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:24:13-66
+		REJECTED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:24:13-66
 	android:grantUriPermissions
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:90:13-47
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:88:13-47
 	android:exported
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:89:13-37
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:87:13-37
 	tools:replace
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:91:13-48
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:89:13-48
 	android:name
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:87:13-67
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:85:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:92:13-94:65
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:27:13-29:65
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:90:13-92:65
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:27:13-29:65
 	android:resource
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:94:17-62
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:92:17-62
 	android:name
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:93:17-67
-service#sample.daffodil.sample2.ImageUploadService
-ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:97:9-100:47
-	android:enabled
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:99:13-35
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:91:17-67
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:94:9-95:54
+	android:value
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:95:13-52
+	android:name
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:94:20-65
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:97:9-100:48
+MERGED from [com.facebook.android:facebook-common:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\02fb3c1ca24061445d8aacdf3a9283ddedb38bae\output\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:100:13-45
+	android:configChanges
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:98:13-114
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\02fb3c1ca24061445d8aacdf3a9283ddedb38bae\output\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:97:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:101:9-110:20
 	android:exported
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:100:13-36
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:103:13-36
 	android:name
-		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:98:13-47
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:102:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:104:13-109:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:105:17-69
+	android:name
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:105:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:106:17-76
+	android:name
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:106:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:107:17-78
+	android:name
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:107:27-75
+data
+ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:108:17-75
+	android:scheme
+		ADDED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml:108:23-72
 uses-sdk
 INJECTED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [android.arch.persistence.room:runtime:1.0.0-alpha1] C:\Users\DAFFODIL-29\.android\build-cache\c5621286a3b934d024d617c8bd8158fd15241a13\output\AndroidManifest.xml:22:5-24:41
 MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha1] C:\Users\DAFFODIL-29\.android\build-cache\ec626935cf5f93c4c15f046ebb7f7ee5cc534d5b\output\AndroidManifest.xml:22:5-24:41
 MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha1] C:\Users\DAFFODIL-29\.android\build-cache\6352313c1bb43a01200e009c1da24613c6b1465d\output\AndroidManifest.xml:22:5-24:41
 MERGED from [android.arch.core:core:1.0.0-alpha1] C:\Users\DAFFODIL-29\.android\build-cache\db6836ab10b274a5b489628fa099d8729d4924e3\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.cloudinary:cloudinary-android:1.20.0] C:\Users\DAFFODIL-29\.android\build-cache\18c425cc27782d0135628e095f71ef870f7df21e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:8:5-10:41
+MERGED from [net.vrallev.android:cat:1.0.5] C:\Users\DAFFODIL-29\.android\build-cache\31d57652507620291efb15a2e03244411415eb3c\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\DAFFODIL-29\.android\build-cache\480a771d46acd7cd0791f2ba054083b5e6f31597\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.2] C:\Users\DAFFODIL-29\.android\build-cache\3db1568aaba5c0652842ce80c09cbc09be15f406\output\AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\DAFFODIL-29\.android\build-cache\6eb2736267e6fabdb5dad5435873eb6ab08ba5cc\output\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\DAFFODIL-29\.android\build-cache\d25361844bdcfb75a5bdae3d50d639aede8e7f79\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\build-cache\7e89d4941d0e27d0fcaf22e08bc7241d1072e567\output\AndroidManifest.xml:27:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DAFFODIL-29\.android\build-cache\fa11e404fe6e26a24aa596f3fe2677097c96b9de\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\DAFFODIL-29\.android\build-cache\cb3bdec03b243fa34ba54916778a526976b26ecd\output\AndroidManifest.xml:5:5-43
 MERGED from [com.rom4ek:arcnavigationview:1.0.3] C:\Users\DAFFODIL-29\.android\build-cache\94b99083d9dddf4f4955944fe668f57ca37e78d7\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:transition:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\5d2767820ec1bd1aeb0ba01c6e3e748b6750cc38\output\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\c7b3b89dd9e129b5f2db093d46f7c560b3f7e4b9\output\AndroidManifest.xml:4:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\4c023b65cc4b57b65ed6fe90f141b6c82cf3ef46\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d91c9e8a691c9aab9d02a626c0db07b6d62ab472\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0f6888799e753807b194658e5d3a8e3f87a6d40c\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\599c0ea5941f2a102017542fe825431bcd90bce9\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\edaa63946bd5dfb7d37f8c47b6ee8390471bbdf5\output\AndroidManifest.xml:4:5-43
-MERGED from [com.cloudinary:cloudinary-android:1.20.0] C:\Users\DAFFODIL-29\.android\build-cache\18c425cc27782d0135628e095f71ef870f7df21e\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:8:5-10:41
-MERGED from [net.vrallev.android:cat:1.0.5] C:\Users\DAFFODIL-29\.android\build-cache\31d57652507620291efb15a2e03244411415eb3c\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.jrvansuita:PickImage:2.1.6] C:\Users\DAFFODIL-29\.android\build-cache\15f5c1f0d9b115947da339ac00161cd531e7e31d\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\11b25adae587fd1454c5136513cdefc9d52db9d4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.jrvansuita:PickImage:2.1.7] C:\Users\DAFFODIL-29\.android\build-cache\557c5eb813e4a13ba6b37e60f0a37ae8c3790200\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\ed0dc30b7e2f9bb2166f6b486cb1d9398bcc879d\output\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\9f6bf117ea83a6141abc48ce3ba51648f095cf3a\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d1de5aeef3a823ffda0ad4a580ce1a4e251fcf59\output\AndroidManifest.xml:4:5-43
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\DAFFODIL-29\.android\build-cache\49b9f552514703ec4ce043ea0f884916260be814\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.skullper:locationgetter:0.1] C:\Users\DAFFODIL-29\.android\build-cache\8231ea3ba75dcabd048fdb6c329c7025a80500f3\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\DAFFODIL-29\.android\build-cache\1031f329d62816c63c59563417ecb8532ec4a4fd\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\f13a0dabd1d5a002452947e93704e8babfc44d82\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\DAFFODIL-29\.android\build-cache\0adf71f3de84009ffb9d842fbd99ffbfc0511ded\output\AndroidManifest.xml:5:5-43
 MERGED from [com.google.firebase:firebase-ads:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\e2ce0963bf9399e485e9042f4b21eaa26ff7d56c\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\79052da5cbba35712ee606b759af35a9cbde9b01\output\AndroidManifest.xml:21:5-23:62
@@ -353,6 +394,27 @@ MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\D
 MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\016706d8e79643099afe493d944051125c37a7a9\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\afd79794ffe647a12e5849dcee6d086416078a91\output\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\15a29503a26f9bceae73ba6f7ff44c7ea3b33752\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\486fe62741984ed39bb31e2d6bcefddc5083ffe9\output\AndroidManifest.xml:4:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\052350bcc8eb8211e6065e688103f448e0685789\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\2f2782c26bfebf61c08ecc675c9e3952224ca421\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\306cadc15f838e17fefde263bfa75ab0172a3636\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\02fb3c1ca24061445d8aacdf3a9283ddedb38bae\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\f13a0dabd1d5a002452947e93704e8babfc44d82\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\11b25adae587fd1454c5136513cdefc9d52db9d4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\c519356b5b02bb1c95c1a2e31056ac26e522f603\output\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\756e03c4299bb98986f42083475935a186f64094\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\099a76b536a1e786311602bc1f348c84f1c2003f\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\1f489ad855cc812d96b8cdc17c7a806d88204037\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\df19bb7de627bf656b7539cc0638dfdbec69c5a8\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\10e10190840b9479e3203edf831feaa960311510\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\b28671818a95cb1bce33f157af83554def012fb4\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\1a40408c6037eec0948dc6e1af80c1389503bbd2\output\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d1060386db6816aa9efb25210496a115e2205631\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\9f6bf117ea83a6141abc48ce3ba51648f095cf3a\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\e6cd3e9e547513ddfae475a691479d3b4ae37c0b\output\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d1a9dc618e3e12fda3356a97aab867b57b1359cc\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\7c6fe40375a6b4acc2854275629a7ec1d4551734\output\AndroidManifest.xml:21:5-23:54
@@ -363,13 +425,6 @@ MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\DAFFODIL-29
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b5d496d5b7027856eddd1eb4133e1d7b3142a26d\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\a023a638aafcc4886f8eb896684f13b5450b42d4\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\81805fd7694819bc9c7ba13900ec30543ebb9869\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\486fe62741984ed39bb31e2d6bcefddc5083ffe9\output\AndroidManifest.xml:4:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\DAFFODIL-29\.android\build-cache\480a771d46acd7cd0791f2ba054083b5e6f31597\output\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.2] C:\Users\DAFFODIL-29\.android\build-cache\3db1568aaba5c0652842ce80c09cbc09be15f406\output\AndroidManifest.xml:29:5-44
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\DAFFODIL-29\.android\build-cache\6eb2736267e6fabdb5dad5435873eb6ab08ba5cc\output\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\DAFFODIL-29\.android\build-cache\d25361844bdcfb75a5bdae3d50d639aede8e7f79\output\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\build-cache\7e89d4941d0e27d0fcaf22e08bc7241d1072e567\output\AndroidManifest.xml:27:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -378,44 +433,6 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\DAFFODIL-29\.android\b
 	android:minSdkVersion
 		INJECTED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\DAFFODIL-29\AndroidStudioProjects\Sample2\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\5d2767820ec1bd1aeb0ba01c6e3e748b6750cc38\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\4c023b65cc4b57b65ed6fe90f141b6c82cf3ef46\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\11b25adae587fd1454c5136513cdefc9d52db9d4\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\f13a0dabd1d5a002452947e93704e8babfc44d82\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\7c6fe40375a6b4acc2854275629a7ec1d4551734\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b973e71d92421adba6949ca99b212533fc73c416\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\64b5bff43eab30541a217ebdd0f38bc36ab1402c\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a3197fc4d90c64fd8e15666006fb32859fc36a69\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\93643aebcbd74272bffc04726947c2017a7e8c06\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b5d496d5b7027856eddd1eb4133e1d7b3142a26d\output\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:26:9-47
-activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:23:9-29:75
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:25:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:27:13-48
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:26:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:28:13-102
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:29:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\76b22b96d6473539322f1fe81b7e355e68817768\output\AndroidManifest.xml:24:13-85
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:28:9-34:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:30:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:29:13-82
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:12:5-68
 MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\54b6a7b43aba77df649cfc9d0c91325dabff19aa\output\AndroidManifest.xml:25:5-68
@@ -503,20 +520,47 @@ ADDED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-
 		ADDED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:57:13-37
 	android:name
 		ADDED from [com.evernote:android-job:1.1.8] C:\Users\DAFFODIL-29\.android\build-cache\1d969d3cca74d79d037168a4073d837386d9fe1f\output\AndroidManifest.xml:56:13-73
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:13:13-75
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\5d2767820ec1bd1aeb0ba01c6e3e748b6750cc38\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\4c023b65cc4b57b65ed6fe90f141b6c82cf3ef46\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\f13a0dabd1d5a002452947e93704e8babfc44d82\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a26a165d583eb893be15da24461668a2abe78c15\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\d0ad21227738b02592ad260cf28a0d62368da5fd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\11b25adae587fd1454c5136513cdefc9d52db9d4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\c519356b5b02bb1c95c1a2e31056ac26e522f603\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\7c6fe40375a6b4acc2854275629a7ec1d4551734\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b973e71d92421adba6949ca99b212533fc73c416\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\64b5bff43eab30541a217ebdd0f38bc36ab1402c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a3197fc4d90c64fd8e15666006fb32859fc36a69\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\93643aebcbd74272bffc04726947c2017a7e8c06\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\b5d496d5b7027856eddd1eb4133e1d7b3142a26d\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.0] C:\Users\DAFFODIL-29\.android\build-cache\a4a067ba10a5c7a7c71ff7c353a39173b09e0d5b\output\AndroidManifest.xml:26:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\0147e93d4fd50fd784b80742aeb8f8b3a1744e3d\output\AndroidManifest.xml:29:13-82
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\ed0dc30b7e2f9bb2166f6b486cb1d9398bcc879d\output\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
 		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\ed0dc30b7e2f9bb2166f6b486cb1d9398bcc879d\output\AndroidManifest.xml:27:9-41
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\ed0dc30b7e2f9bb2166f6b486cb1d9398bcc879d\output\AndroidManifest.xml:28:9-32
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:24:13-79
 service#com.akhgupta.easylocation.LocationBgService
 ADDED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\DAFFODIL-29\.android\build-cache\1031f329d62816c63c59563417ecb8532ec4a4fd\output\AndroidManifest.xml:18:9-20:40
 	android:exported
@@ -625,13 +669,41 @@ ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\DAFFODIL-29\.an
 		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\afd79794ffe647a12e5849dcee6d086416078a91\output\AndroidManifest.xml:12:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\afd79794ffe647a12e5849dcee6d086416078a91\output\AndroidManifest.xml:9:13-77
-provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:12:9-16:39
-	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:14:13-75
-	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:15:13-37
-	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:16:13-36
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\02fb3c1ca24061445d8aacdf3a9283ddedb38bae\output\AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\DAFFODIL-29\.android\build-cache\4f69e6e5fd831d671e8d0f0505b7a97f19847261\output\AndroidManifest.xml:13:13-75
+		ADDED from [com.facebook.android:facebook-common:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\02fb3c1ca24061445d8aacdf3a9283ddedb38bae\output\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\df19bb7de627bf656b7539cc0638dfdbec69c5a8\output\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\df19bb7de627bf656b7539cc0638dfdbec69c5a8\output\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\df19bb7de627bf656b7539cc0638dfdbec69c5a8\output\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.32.0] C:\Users\DAFFODIL-29\.android\build-cache\df19bb7de627bf656b7539cc0638dfdbec69c5a8\output\AndroidManifest.xml:40:13-70
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\f280bec3b7ab02c7649a0dcb008a13a277c7b5a6\output\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\DAFFODIL-29\.android\build-cache\d11752bdc7f01b091e8bc42ce4cedc1b157b65d9\output\AndroidManifest.xml:24:13-79

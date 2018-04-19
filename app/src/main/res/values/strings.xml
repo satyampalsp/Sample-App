@@ -7,5 +7,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="banner_ad_unit_id">ca-app-pub-5654044967858938/4010470119</string>
+    <string name="facebook_app_id">1229026550533687</string>
+    <string name="fb_login_protocol_scheme">fb1229026550533687</string>
+
 
 </resources>

@@ -1,4 +1,5 @@
 package sample.daffodil.sample2.Activities;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -6,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,12 +20,21 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 
 import com.crashlytics.android.Crashlytics;
+import com.facebook.AccessToken;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
+import com.facebook.HttpMethod;
+import com.facebook.Profile;
+import com.facebook.login.LoginManager;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.google.firebase.auth.FirebaseAuth;
 import com.squareup.picasso.Picasso;
 
 import butterknife.ButterKnife;
@@ -37,7 +48,6 @@ public class MainActivity extends AppCompatActivity
     String url;
     private AdView mAdView;
     ImageView profileImage;
-    FirebaseAuth auth;
     private FirebaseAnalytics mFirebaseAnalytics;
     InterstitialAd mInterstitialAd;
     @Override
@@ -59,7 +69,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ButterKnife.bind(this);
-        auth=FirebaseAuth.getInstance();
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,7 +85,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
+        GoogleSignInAccount googleSignInAccount=GoogleSignIn.getLastSignedInAccount(this);
+        AccessToken accessToken=AccessToken.getCurrentAccessToken();
         View profileView=navigationView.getHeaderView(0);
         profileImage=(ImageView)profileView.findViewById(R.id.id_profile_image);
 
@@ -86,11 +96,13 @@ public class MainActivity extends AppCompatActivity
         ft.replace(R.id.id_main_fragment_frame,f);
         ft.commit();
         SharedPreferences sp = this.getSharedPreferences("Mypref", 0);
-        url=sp.getString("picUrl",null);
-        if(url!=null){
-            Picasso.with(this).load(url).fit().into(profileImage);
-        }
-
+        SharedPreferences.Editor editor=sp.edit();
+//        editor.putString("picUrl",url);
+//        editor.apply();
+            url = sp.getString("picUrl", null);
+            if (url != null) {
+                Picasso.with(this).load(url).fit().into(profileImage);
+            }
         profileImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,7 +117,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
         // TODO: Move this to where you establish a user session
-        logUser();
+        //logUser();
 
     }
     @Override
@@ -175,22 +187,20 @@ public class MainActivity extends AppCompatActivity
             editor.putString("email","");
             editor.putString("pass","");
             editor.putBoolean("flag",false);
+            editor.putString("picUrl",null);
             editor.apply();
-//            FirebaseAuth auth=FirebaseAuth.getInstance();
-//            auth.signOut();
-//
-//            FirebaseAuth.AuthStateListener authListener = new FirebaseAuth.AuthStateListener() {
-//                @Override
-//                public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-//                    FirebaseUser user = firebaseAuth.getCurrentUser();
-//                    if (user == null) {
-//                        // user auth state is changed - user is null
-//                        // launch login activity
-//                        startActivity(new Intent(MainActivity.this, FirstActivity.class));
-//                        finish();
-//                    }
-//                }
-//            };
+            AccessToken accessToken=AccessToken.getCurrentAccessToken();
+            GoogleSignInAccount googleSignInAccount= GoogleSignIn.getLastSignedInAccount(this);
+            if(googleSignInAccount!=null){
+                GoogleSignInOptions gso=new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestProfile().requestEmail().build();
+                GoogleSignInClient googleSignInClient=GoogleSignIn.getClient(this,gso);
+                googleSignInClient.signOut();
+            }
+            else if(accessToken!=null){
+                LoginManager.getInstance().logOut();
+            }
+            startActivity(new Intent(MainActivity.this, FirstActivity.class));
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -205,7 +215,7 @@ public class MainActivity extends AppCompatActivity
 //    }
 private void logUser() {
     // TODO: Use the current user's information
-    // You can call any combination of these three methods
+     //You can call any combination of these three methods
     Crashlytics.setUserIdentifier("12345");
     Crashlytics.setUserEmail("user@fabric.io");
     Crashlytics.setUserName("Test User");

@@ -19,6 +19,8 @@ import android.widget.Toast;
 import com.cloudinary.android.MediaManager;
 import com.cloudinary.android.callback.ErrorInfo;
 import com.cloudinary.android.callback.UploadCallback;
+import com.cloudinary.android.callback.UploadResult;
+import com.cloudinary.android.callback.UploadStatus;
 import com.squareup.picasso.Picasso;
 
 import java.util.Map;
@@ -84,11 +86,9 @@ public class ImageUploadService extends Service {
                 editor.apply();
                 uploadNotification.setContentText("Uploaded Successfully");
                 notification.notify(0,uploadNotification.build());
-                LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService
-                        (Context.LAYOUT_INFLATER_SERVICE);
-                LinearLayout ll = (LinearLayout) inflater.inflate(R.layout.activity_main, null);
-                ImageView profileImage=(ImageView)ll.findViewById(R.id.id_profile_image_big);
-                Picasso.with(getApplicationContext()).load(url).fit().into(profileImage);
+                Intent i =new Intent(getApplicationContext(),MainActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(i);
                 ImageUploadService.this.stopSelf();
             }
             @Override
@@ -97,6 +97,7 @@ public class ImageUploadService extends Service {
                 Toast.makeText(ImageUploadService.this, "Error occurred! Please try again later...", Toast.LENGTH_SHORT).show();
                 uploadNotification.setContentText("Error Occurred. Please Try again later");
                 notification.notify(0,uploadNotification.build());
+
             }
             @Override
             public void onReschedule(String requestId, ErrorInfo error) {

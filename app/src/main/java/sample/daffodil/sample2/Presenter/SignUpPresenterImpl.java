@@ -21,6 +21,7 @@ public class SignUpPresenterImpl implements SignUpPresenter,SignUpBackground.OnF
     @Override
     public void OnSignUpClick(String email, String FirstName, String LastName, String PhoneNo, String Pass, Context context) {
         signUpBackground.SignUp(email,FirstName,LastName,PhoneNo,Pass,this,context);
+
     }
 
     @Override

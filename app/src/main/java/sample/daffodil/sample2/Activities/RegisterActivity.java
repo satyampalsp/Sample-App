@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.google.firebase.auth.FirebaseAuth;
 
 import sample.daffodil.sample2.Database.User;
 import sample.daffodil.sample2.Database.UserDao;
@@ -26,7 +25,6 @@ public class RegisterActivity extends AppCompatActivity implements SignUpView{
     User user;
     UserDatabase userdb;
     UserDao userDao;
-    FirebaseAuth auth;
     SignUpPresenter signUpPresenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +38,6 @@ public class RegisterActivity extends AppCompatActivity implements SignUpView{
         inputPassword=(EditText)findViewById(R.id.id_resgisterPassword);
         inputCnfrmPassword=(EditText)findViewById(R.id.id_resgisterCnfrmPassword);
         registerButton=(Button)findViewById(R.id.id_registerButton);
-        auth=FirebaseAuth.getInstance();
         //Action on clicking Register button
 
         registerButton.setOnClickListener(new View.OnClickListener() {

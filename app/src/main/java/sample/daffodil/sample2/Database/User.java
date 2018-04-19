@@ -8,7 +8,7 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity(indices = {@Index(value = {"email_id", "mobile"},
+@Entity(indices = {@Index(value = {"email_id"},
         unique = true)})
 public class User {
 

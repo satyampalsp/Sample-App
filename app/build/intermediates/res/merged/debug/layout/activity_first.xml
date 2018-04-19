@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#fff"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -137,35 +137,21 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:orientation="horizontal">
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="20dp"
-                android:padding="10dp"
-                android:src="@drawable/facebook"
+
+            <com.facebook.login.widget.LoginButton
                 android:id="@+id/id_facebook_connect"
-                android:background="@drawable/iv_background"
-                android:layout_weight="1"/>
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="50dp"
                 android:layout_weight="1"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/id_twiiter_connect"
-                android:background="@drawable/iv_background"
-                android:padding="10dp"
-                android:src="@drawable/twitter"/>
-            <ImageView
+                android:src="@drawable/facebook" />
+            <com.google.android.gms.common.SignInButton
                 android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_height="match_parent"
                 android:id="@+id/id_google_plus_connect"
                 android:layout_weight="1"
                 android:layout_marginLeft="20dp"
-                android:padding="10dp"
                 android:layout_marginRight="50dp"
-                android:background="@drawable/iv_background"
                 android:src="@drawable/google_plus"/>
         </LinearLayout>
     </LinearLayout>

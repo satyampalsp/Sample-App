@@ -51,8 +51,8 @@
         </activity>
         <activity android:name=".Activities.FirstActivity" />
         <activity android:name=".Activities.RegisterActivity" />
-        <service android:name=".Services.ImageUploadService">
-        </service>
+
+        <service android:name=".Services.ImageUploadService"></service>
         <service android:name=".FirebaseIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -76,9 +76,7 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="830fa7b25af7812f225b117baa5e73250d88ec8e" />
-        <!--
-             The API key for Google Maps-based APIs.
-        -->
+        <!--              The API key for Google Maps-based APIs. -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDUAKojybFfeAaGj7J6uTgYpE6n6kFICJg" />
@@ -93,11 +91,25 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/picker_provider_paths" />
         </provider>
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
 
-        <service
-            android:name=".ImageUploadService"
-            android:enabled="true"
-            android:exported="true"></service>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

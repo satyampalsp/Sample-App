@@ -22,7 +22,7 @@ public class SignUpBackgroundImpl implements SignUpBackground {
         onFinished.getStatus(performSignup(email,FirstName,LastName,PhoneNo,pass,context));
     }
 
-    boolean performSignup(String email, String FirstName, String LastName, String PhoneNo, String Pass, Context context) {
+    public boolean performSignup(String email, String FirstName, String LastName, String PhoneNo, String Pass, Context context) {
         User user;
         UserDatabase userdb;
         UserDao userDao;
@@ -48,7 +48,7 @@ public class SignUpBackgroundImpl implements SignUpBackground {
             userdb.getUserDao().insert(user);
             List<User> verify_email = userdb.getUserDao().getUserDetails(email.trim());
             if (verify_email.size() == 1) {
-                Toast.makeText(context, "Registration Successfull. Please Log in to continue!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Registration Successful. Please Log in to continue!", Toast.LENGTH_SHORT).show();
                 return true;
             }
             else{
